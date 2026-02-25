@@ -8,9 +8,9 @@
     *Tested using node.js 
 
 ## Organization
-    *index.html in main directory
-    *style.css and images or other media in resources folder
-    *script.js in main directory 
-    *README.md in main direcotry 
+    -index.html in main directory
+    -style.css and images or other media in resources folder
+    -script.js in main directory 
+    -README.md in main direcotry 
 
 
