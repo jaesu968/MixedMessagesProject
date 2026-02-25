@@ -5,7 +5,12 @@ function generateMessage() {
         2: "Believe in yourself and all that you are.",
         3: "Every day is a new opportunity to grow.",
         4: "You have the power to create change.",
-        5: "Stay positive, work hard, and make it happen."
+        5: "Stay positive, work hard, and make it happen.",
+        6: "Your potential is limitless. Keep on pushing forward!",
+        7: "Failure is just a stepping stone to success. Don't give up!",
+        8: "You are capable of amazing things. Keep believing in yourself!",
+        9: "You can climb over this mountain too!",
+        10: "Hard work and dedication have a way of paying off. Don't forget your dreams!"
     }
     // Generate a random index to select a message
     const randomIndex = Math.floor(Math.random() * Object.keys(messages).length) + 1;
@@ -18,7 +23,7 @@ function generateMessage() {
 
 // Add an event listener to the button to generate a message when clicked
 if (typeof document !== 'undefined') {
-    document.getElementById("generateButton").addEventListener("click", generateMessage);
+    document.getElementById("generateMessageButton").addEventListener("click", generateMessage);
     // Generate a message when the page loads
     window.onload = generateMessage;
 }
