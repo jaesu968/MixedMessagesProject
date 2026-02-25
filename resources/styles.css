@@ -4,3 +4,43 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    background-color: #F2BB05; 
+}
+
+.welcome {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px 20px;
+}
+
+h1 {
+    color: #124E78;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: #F0F0C9; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.messageContainer {
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 20px 20px;
+}
+#generateMessageButton {
+    background-color: #D74E09; 
+    color: #6E0E0A; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px;
+}
