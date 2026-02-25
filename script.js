@@ -24,8 +24,6 @@ function generateMessage() {
 // Add an event listener to the button to generate a message when clicked
 if (typeof document !== 'undefined') {
     document.getElementById("generateMessageButton").addEventListener("click", generateMessage);
-    // Generate a message when the page loads
-    window.onload = generateMessage;
 }
 
 // Node.js test: print a random message if run in terminal
